@@ -8,6 +8,6 @@
        - run: pip install pystrich
        - run: python --version
        - run:
-          name: hola
+          name: holaa
           command: |
             python hola.py
