@@ -2,7 +2,7 @@
  jobs:
    build:
      docker:
-       - image: circleci/python:3.6.9
+       - image: circleci/python:3.8.1
      steps:
        - checkout
        - run: pip install pystrich
