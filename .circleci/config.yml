@@ -7,4 +7,7 @@
        - checkout
        - run: pip install pystrich
        - run: python --version
-       - run: echo "Hello World"
+       - run:
+          name: hola
+          command: |
+            python hola.py
