@@ -1,0 +1,10 @@
+ version: 2
+ jobs:
+   build:
+     docker:
+       - image: circleci/python:3.8.1
+     steps:
+       - checkout
+       - run: pip install pystrich
+       - run: python --version
+       - run: echo "Hello World"
